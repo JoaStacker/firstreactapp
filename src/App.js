@@ -52,7 +52,7 @@ function App() {
               arreglo={[1,2,3]}
               objeto={{nombre: "Joaquin", correo: "joessar99@gmail.com"}}
               funcion={(num) => num * num}
-              elementoReact={<li>Esto es un elemento react</li>}
+              elementoReact={<li>Esto es un elemento React</li>}
               componenteReact={<ComponenteClase msg="Soy un componente pasado como prop"/>}
             />
             <hr />
