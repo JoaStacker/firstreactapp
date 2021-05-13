@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.link{
+  color: white;
+  text-decoration: none;
+}
+
+.pokemon-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.pokemon-img-responsive{
+  min-width: 180px;
+}
+
+.pokemon-card{
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.103);
+  padding: 20px;
+  transition: all 0.2s ease;
+}
+
+.pokemon-card:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: rgba(0, 0, 0, 0.247);
+}
+
+a{
+  color: #ffffff
+}
+
+#menu{
+  background: #030303;
+}
