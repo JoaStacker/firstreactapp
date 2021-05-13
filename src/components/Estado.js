@@ -37,7 +37,7 @@ export default class Estado extends Component {
             <h2>El State</h2>
             <ul>
                 <li>{this.state.contador}</li>
-                <li><button onClick={this.resetTimer}>Reset</button></li>
+                <li><button onClick={this.resetTimer}>RESET</button></li>
                 <EstadoAHijo contadorHijo={this.state.contador}/>
             </ul>
         </div>
